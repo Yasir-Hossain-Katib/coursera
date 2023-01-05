@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coursera</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/company/favicon.png" type="image/x-icon">
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/e70ca64d1d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header start  -->
+    <header>
+        <!-- navigation bar -->
+        <section class="container">
+            <nav class="navbar fixed-top navbar-expand-lg bg-header">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/company/company-1.png" alt="">
+                    </a>
+                    <div class="">
+                        <form class="d-none d-md-inline justify-content-end d-lg-none " role="search">
+                            <button class="btn btn-outline-success button" type="submit">Register</button>
+                        </form>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto nav">
+                            <li class="nav-item ps-5">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown ps-5">
+                                <a class="nav-link dropdown-toggle" href="#courses" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Courses
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#courses">UI/UX design </a></li>
+                                    <li><a class="dropdown-item" href="#courses">Motion design</a></li>
+                                    <li><a class="dropdown-item" href="#courses">Photography</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Explore more</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ps-5">
+                                <a class="nav-link" href="#courses">Deal</a>
+                            </li>
+                            <li class="nav-item ps-5">
+                                <a class="nav-link" href="#success">Success</a>
+                            </li>
+                            <li class="nav-item ps-5">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item ps-5">
+                                <a class="nav-link " href="#register">Register</a>
+                            </li>
+                        </ul>
+                        <form class="mx-auto d-none  d-xl-inline" role="search">
+                            <button class="btn btn-outline-success button" type="submit">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- slider start  -->
+        <section class="container my-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid" src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block d-lg-block mt-sm-5  m-lg-2 p-lg-5 m-xl-5 ">
+                            <h5 class="display-1 fw-bold">Learn without limits</h5>
+                            <p>Start, switch, or advance your career with more than 5,000 courses, Professional
+                                Certificates, and degrees from world-class universities and companies.</p>
+                            <button type="button" class="btn btn-primary fs-3 fw-semibold py-lg-3 px-lg-5 button">Join For
+                                Free</button>
+                        </div>
+                        <div class="carousel-caption m-0 p-0 d-block d-md-none d-lg-none">
+                            <h3 class="fw-bold">Learn without limits</h3>
+                            <p> <small>Start, switch, or advance your career with more than 5,000 courses.</small></p>
+                            <button type="button" class="m-0 btn btn-primary button">Join For Free</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="images/cover/cover-2.jpg.png" class="d-block w-100" alt="....">
+                        <div class="carousel-caption d-none d-md-block d-lg-block mt-sm-5  m-lg-2 p-lg-5 m-xl-5 ">
+                            <h5 class="display-1 fw-bold">Learn without limits</h5>
+                            <p>Start, switch, or advance your career with more than 5,000 courses, Professional
+                                Certificates, and degrees from world-class universities and companies.</p>
+                            <button type="button" class="btn btn-primary fs-3 fw-semibold py-lg-3 px-lg-5 button">Join For
+                                Free</button>
+                        </div>
+                        <div class="carousel-caption m-0 p-0 d-block d-md-none d-lg-none">
+                            <h3 class="fw-bold">Learn without limits</h3>
+                            <p><small>Start, switch, or advance your career with more than 5,000 courses.</small></p>
+                            <button type="button" class="btn btn-primary button">Join For Free</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="images/cover/cover-3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block d-lg-block mt-sm-5  m-lg-2 p-lg-5 m-xl-5 ">
+                            <h5 class="display-1 fw-bold ">Learn without limits</h5>
+                            <p>Start, switch, or advance your career with more than 5,000 courses, Professional
+                                Certificates, and degrees from world-class universities and companies.</p>
+                            <button type="button" class="btn btn-primary fs-3 fw-semibold py-lg-3 px-lg-5 button">Join For
+                                Free</button>
+                        </div>
+                        <div class="carousel-caption m-0 p-0 d-block d-md-none d-lg-none">
+                            <h3 class="fw-bold">Learn without limits</h3>
+                            <p><small>Start, switch, or advance your career with more than 5,000 courses.</small></p>
+                            <button type="button" class="btn btn-primary button">Join For Free</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+    </header>
+    <!-- header end   -->
+
+    <!-- main start  -->
+    <main>
+        <!-- course section  -->
+        <section class="container mt-5" id="courses">
+            <div class="text-center mb-5">
+                <h1 class="text">Discover Our Popular</h1>
+                <h1 class="text">Courses</h1>
+                <p class="pt-3 fw-bold">These are some of our popular courses. You can have a 7 days free trail.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card mb-3 card-design">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img class=" img-fluid img-size" src="images/course/course-1.png"
+                                    class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Fundamental Of UI/UX Design</h5>
+                                    <p class="card-text">This course is a 4 weeks packed course. This course will be
+                                        conducted by professor of university of Michigang.</p>
+                                    <p class="card-text"><small class="text fs-5">Price : 60$</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card mb-3 card-design">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img class="img-fluid img-size" src="images/course/course-2.png"
+                                    class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Javascript Basic to advanced</h5>
+                                    <p class="card-text">This course is a 4 weeks packed course. This course will be
+                                        conducted by professor of university of Michigang.</p>
+                                    <p class="card-text"><small class="text fs-5">Price : 40$</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card mb-3 card-design">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img class="img-fluid img-size" src="images/course/course-3.png"
+                                    class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Fullstack Web Development</h5>
+                                    <p class="card-text">This course is a 4 weeks packed course. This course will be
+                                        conducted by professor of university of Michigang.</p>
+                                    <p class="card-text"><small class="text fs-5">Price : 50$</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card mb-3 card-design d-none  d-lg-block">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img class="img-fluid img-size" src="images/course/course-4.png"
+                                    class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Digital Marketing</h5>
+                                    <p class="card-text">This course is a 4 weeks packed course. This course will be
+                                        conducted by professor of university of Michigang.</p>
+                                    <p class="card-text"><small class="text fs-5">Price : 20$</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card mb-3 card-design d-none  d-lg-block">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img class="img-fluid img-size" src="images/course/course-5.png"
+                                    class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Photography Basic Rules</h5>
+                                    <p class="card-text">This course is a 4 weeks packed course. This course will be
+                                        conducted by professor of university of Michigang.</p>
+                                    <p class="card-text"><small class="text fs-5">Price : 25$</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card mb-3 card-design d-none  d-lg-block">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img class="img-fluid img-size" src="images/course/course-6.png"
+                                    class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Motion Graphics</h5>
+                                    <p class="card-text">This course is a 4 weeks packed course. This course will be
+                                        conducted by professor of university of Michigang.</p>
+                                    <p class="card-text"><small class="text fs-5">Price : 20$</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <button type="button" class="btn btn-primary fs-3 fw-semibold py-lg-3 px-lg-5 button">View All</button>
+            </div>
+        </section>
+        <!-- explore section  -->
+        <section class="container my-5">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img class="img-fluid img-size" src="images/working.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8 bg-header">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-center p-5">
+                            <div class="p-5">
+                                <h5 class="card-title fw-bold fs-1 pb-4 text">Explore The elearning Institute</h5>
+                                <p class="card-text pb-4">Coursera have their own beautiful website where thousands of
+                                    students are graduating. We have so many courses that students from anywhere just
+                                    with a help of smart devices and internet connections they can enjoy a new way of
+                                    learning with coursera.</p>
+                                <div class="">
+                                    <div class="row">
+                                        <div class="col-6 col-sm-6 col-md-4">
+                                            <div>
+                                                <h3 class="fs-2 fw-bold text-center">3.2k+</h3>
+                                                <span>Online course</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-sm-6 col-md-4">
+                                            <div>
+                                                <h3 class="fs-2 fw-bold text-center">600+</h3>
+                                                <span>Expert members</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-6 col-sm-6 col-md-4">
+                                            <div>
+                                                <h3 class="fs-2 fw-bold text-center">1k+</h3>
+                                                <span>Rating & Review</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    
+
+                                </div>
+                                <div class="mt-5">
+                                    <button type="button" class="btn btn-primary fs-3 fw-semibold py-lg-3 px-lg-5 button">Read
+                                        More</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- ready to join  -->
+        <section class="container my-5" id="register">
+            <div
+                class="d-sm-block d-md-block d-lg-flex justify-content-evenly justify-content-center align-items-center bg-header p-5 rounded card-design">
+                <div class="p-5">
+                    <h1 class="text">Ready to join?</h1>
+                    <p>This courses can be lifechanging for you. Don't think just click on the register button.</p>
+                </div>
+                <div class="p-5">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary py-md-3 px-md-5  text-center fs-5 fw-semibold button"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Learn with Coursera</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                                anyone else.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">i agree with the terms
+                                                and conditions</label>
+                                        </div>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </form>
+
+
+                                </div>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- success  -->
+        <section class="container" id="success">
+            <div class="mb-5">
+                <h1 class="mb-3 text">Meet Our Successful Students</h1>
+                <p class="fw-bold">Every year thousands of students from different countries are enrolling our course and these are some
+                    live example.</p>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-xl-3 d-flex justify-content-center mb-5">
+                        <div class="card d-none d-md-block d-lg-block card-design"   style="width: 18rem;">
+                            <img class="img-fluid" src="images/student/student-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="fs-3 fw-bold"> TUSHAR MIRZA </h1>
+                                <p class="card-text">UIUX DESIGNER</p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xl-3 d-flex justify-content-center mb-5">
+                        <div class="card d-none d-md-block d-lg-block card-design" style="width: 18rem;">
+                            <img class="img-fluid" src="images/student/student-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="fs-3 fw-bold"> NADIA MEHERIN </h1>
+                                <p class="card-text"> MOTION DESIGNER </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xl-3 d-flex justify-content-center mb-5">
+                        <div class="card card-design" style="width: 18rem;">
+                            <img class="img-fluid" src="images/student/student-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="fs-3 fw-bold"> IRFAN BIN </h1>
+                                <p class="card-text">WEB DEVELOPER</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xl-3 d-flex justify-content-center mb-5">
+                        <div class="card card-design" style="width: 18rem;">
+                            <img class="img-fluid" src="images/student/student-4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="fs-3 fw-bold"> TAHMINA TASIA </h1>
+                                <p class="card-text">PHOTOGRAPHER</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xl-3 d-flex justify-content-center mb-5">
+                        <div class="card d-block d-md-none d-lg-none card-design" style="width: 18rem;">
+                            <img class="img-fluid" src="images/student/student-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="fs-3 fw-bold"> NADIA MEHERIN </h1>
+                                <p class="card-text"> MOTION DESIGNER </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-3 d-md-none d-block d-sm-block d-lg-block">
+                    <button type="button" class="btn btn-primary fs-3 fw-semibold py-lg-3 px-lg-5 button">View All</button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- feedback -->
+        <section class="container mt-5">
+            <div class="text-center">
+                <h1 class="text pt-5">Some Students feedback</h1>
+                <p class="pt-4 fw-semibold">These are some of students feedback from our different courses.</p>
+            </div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6 mb-5">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <img src="images/comma.png" alt="">
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="my-3 fw-bold">Coursera has changed my carrier. This course is designed so beginner
+                                    friendly that anyone with a slight basic ideas can join this course. Thank you
+                                    coursera for this wonderful services.</p>
+                                <div class="d-flex align-items-center">
+                                    <div class="me-4">
+                                        <img class="img-fluid" src="images/student/student-5.png" alt="">
+                                    </div>
+                                    <div class="mt-4">
+                                        <h5>Atik Islam</h5>
+                                        <p>UI DESIGNER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span
+                                class="d-none d-lg-inline position-absolute top-50 end-99 translate-middle p-3 left border border-light rounded-circle"><i
+                                    class="fa-solid fa-angle-left"></i>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-6 mb-5">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <img src="images/comma.png" alt="">
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="my-3 fw-bold">Coursera has changed my carrier. This course is designed so beginner
+                                    friendly that anyone with a slight basic ideas can join this course. Thank you
+                                    coursera for this wonderful services.</p>
+                                <div class="d-flex align-items-center">
+                                    <div class="me-4">
+                                        <img class="img-fluid" src="images/student/student-6.png" alt="">
+                                    </div>
+                                    <div class="mt-4">
+                                        <h5>Wasia Taranna</h5>
+                                        <p>GRAPHICS DESIGNER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span
+                                class="d-none d-lg-inline position-absolute top-50 start-100 translate-middle p-3 right border border-light rounded-circle"><i
+                                    class="fa-solid fa-angle-right"></i>
+
+                        </div>
+                    </div>
+                    <div class="text-center mt-3 d-md-block d-block d-sm-block d-lg-none">
+                        <button type="button" class="btn btn-primary fs-3 fw-semibold py-lg-3 px-lg-5 button">View All</button>
+                    </div>
+                </div>
+        </section>
+
+        <!-- frequently asked ques  -->
+        <section class="container my-5" id="about">
+            <div class="text-center">
+                <h1 class="text pt-5">Freequently Asked Question</h1>
+                <p class="fw-semibold py-4">Some important ques are answered that will help you to take the correct decision.</p>
+            </div>
+            <div class="mt-5">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is the different between flexbox and grid?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>The main difference is flex use for horizontal purpose and grid use for vartical
+                                    purpose.</strong> flex can only apply for div so that they stay inline and also flex
+                                can put some style there. Grid can use with the calculation of rows and columns and grid
+                                can easily take spaces.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What is the different between Bootstrap and Tailwind?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Bootstrap and Tailwind both are much similar but main difference is Tailwind has
+                                    many fuctionalities that bootstrap don't.</strong> Tailwind is new generation system
+                                where bootstrap has created long time ago. Bootstrap has some functionalities with a
+                                boundaries where we have to use custom css to get our result but Tailwind has given us
+                                so many options and features that makes a project much easier.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is CSS BOX model?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>It is a system where we can visualize border margin padding and so on.</strong>
+                                CSS box model is a system to check a div's area like how much margin or padding it has
+                                so that we can easily put accurate value to get the perfect result. You can simply find
+                                it by inspecting your website.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is Semantic tag? give some example.
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Semantic tag is used for understanding a code easily. It works my
+                                    indicator.</strong> An ideal project code should have semantic tag like header main
+                                footer etc.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- trusted by  -->
+        <section class="container d-none d-lg-block mt-5">
+            <div class="text-center">
+                <h3 class="text py-5">We collaborate with 200+ leading universities and companies</h3>
+            </div>
+            <div class="container my-5">
+                <div class="row d-flex justify-content-center align-items-center ">
+                    <div class="col-2"><img src="images/company/uni1.png" alt="" class="img-fluid"></div>
+                    <div class="col-2"><img src="images/company/uni2.png" alt="" class="img-fluid"></div>
+                    <div class="col-2"><img src="images/company/uni3.png" alt="" width="100" height="100"
+                            class="img-fluid"></div>
+                    <div class="col-2"><img src="images/company/company-3.png" alt="" class="img-fluid"></div>
+                    <div class="col-2"><img src="images/company/company-5.png" alt="" class="img-fluid"></div>
+                    <div class="col-2"><img src="images/company/company-6.png" alt="" class="img-fluid"></div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <!-- main end  -->
+    <!-- footer start  -->
+    <footer class="mt-5 bg-header">
+        <div class="text-center p-5">
+            <h1 class="text py-4">COURSERA</h1>
+            <p class="text fw-semibold">LET'S EXPLORE COURSES WITH COURSERA</p>
+            <p class="text fw-semibold">Office- 2/E,10th floor, Aftab Tower.</p>
+            <p class="text fw-semibold">Dhaka, Bangladesh</p>
+            <p class="py-3"><a class="text-decoration-none text " href="">Privacy policy</a> | <a
+                    class="text-decoration-none text" href="">Terms of use</a></p>
+            <div class="d-flex justify-content-center">
+                <div class="mx-3"><a class="text" href="https://www.facebook.com/Coursera"><i
+                            class="fa-brands fa-square-facebook"></i>
+                    </a></div>
+                <div class="mx-3"> <a class="text" href="https://twitter.com/coursera"><i
+                            class="fa-brands fa-square-twitter"></i></a>
+                </div>
+                <div class="mx-3"> <a class="text" href="https://www.instagram.com/coursera/"><i
+                            class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <div class="mx-3"> <a class="text" href="https://www.linkedin.com/company/coursera"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- footer end  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
